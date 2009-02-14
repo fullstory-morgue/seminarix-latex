@@ -1,0 +1,59 @@
+\documentclass[a4paper,10pt]{scrartcl}
+\usepackage{ngerman}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{palatino}
+
+%opening
+\title{Erste Schritte in \LaTeX \,}
+\author{Philipp Bender}
+
+\begin{document}
+
+\maketitle
+
+\section*{Über dieses Dokument}
+Dieses Dokument soll kein Tutorial für \LaTeX \, sein, sondern vielmehr einen kurzen Überblick über dieses Textsatzsystem geben und den Zugang erleichtern. Sie erhalten Tipps, wie Sie \LaTeX \, unter seminarix installieren und sich bei Interesse weiter informieren können.
+
+\section*{Was ist \LaTeX \,?}
+\LaTeX \, ist ein Textsatzsystem zur Erstellung aller Arten von Dokumenten. Entstanden ist es aus der Not des Amerikaners Donald E. Knuth, der ein Buch verfassen wollte und mit der Satzqualität der seinerzeit gängigen Computersysteme nicht zufrieden war. Er programmierte \TeX ("`Tech"', $\tau \varepsilon \chi$), das heute eines der Programme mit den wenigsten Fehlern darstellt (tatsächlich enthält jedes Programm Fehler, von denen Sie jedoch zumeist nichts bemerken, wenn es nicht gerade abstürzt). Da der Umgang mit \TeX jedoch sehr komliziert ist, erstellte Leslie Lamport dazu ein Makropaket (er fasste bestimmte Anweisungssequenzen zu einfachen Befehlen zusammen) und nannte es in Anlehnung an seinen Nachnamen \LaTeX \,. Trotzdem hört man oft, dass Leute von \TeX sprechen, auch wenn sie eigentlich mit \LaTeX \, arbeiten.
+
+Textverarbeitungen, wie Sie sie wahrscheinlich kennen, arbeiten nach dem Prinzip, dass das, was man im Programmfenster sieht, auch das ist, was später im PDF oder auf dem Papier sichtbar ist. Mit \LaTeX \, verfolgen Sie einen andern Ansatz: Das, was man im Programmfenster sieht, ist das, was man \emph{meint}. Wollen sie beispielsweise ein Kapitel beginnen, so schreiben Sie das ins Dokument, anstatt einfach dem Text eine große Schriftart zuzuweisen. Um das Aussehen, also die optische Darstellung als Kapitelüberschrift, kümmert sich das Programm. Der Vorteil liegt darin, dass Ihr Inhalt völlig unabhängig von der Form wird und sie auch nachdem sie 100 Seiten geschrieben haben in wenigen Minuten auf ein komplett anderes Layout umstellen oder Ihr Dokument völlig ohne Änderung im Internet publizieren können.
+
+\section*{Welche Vorteile hat \LaTeX \, gegenüber üblichen Textverarbeitungen?}
+\LaTeX \, wurde nach anderen Gesichtspunkten entworfen als andere Textverarbeitungssysteme. Der Fokus liegt auf optischer Qualität. Die Arbeit mit \LaTeX \,  un\-terscheidet sich grundlegend von der Arbeit mit z.B. Microsoft Word \textregistered oder OpenOffice Writer. Sie arbeiten in einem speziellen Texteditor und geben Ihren Quelltext ein. Dieser wird dann vom eigentlichen \LaTeX \,-Programm zu einem PDF verarbeitet. Ein geeigneter Texteditor für \LaTeX \,-Dokumente vervollständigt für Sie Befehle, kontrolliert Ihre Rechtschreibung, hilt Ihnen beim Einbinden von Grafiken und übernimmt die Programmaufrufe zum Erstellen des PDFs für Sie.
+
+Außerdem arbeiten Sie sehr viel mit Vorlagen, die Sie selbst erstellt oder von anderen Anwendern bezogen haben. Diese Vorlagen folgen teilweise typografischen Richtlinien und beachten Aspekte wie Lesefluss, Zeilenlänge oder Grauwert einer Seite, sodass der Lesefluss nicht gestört wird. Neben Vorlagen (oder "`Dokumentenklassen"') für lange Ausarbeitungen gibt es auch welche für Bücher, Briefe, Präsentationen mit einem Beamer, Karteikarten, Kalender, Übungsblätter und Vieles mehr.
+
+\LaTeX \, ist ursprünglich ein Textsatzsystem für wissenschaftliche Texte und Bücher. Der Umgang mit Verzeichnissen wie Index, Glossar, Inhaltsverzeichnis oder Literaturverzeichnis wird durch sogenannte \emph{Pakete} vereinfacht. Dokumente mit mehreren hundert Seiten sind überhaupt kein Problem.
+
+Speziell für Naturwissenschaftler, Mathematiker und Ingenieure ist der exzellente Formelsatz interessant. Wenn Sie Mathematik studieren, werden Ihre Übungsblätter und Klausuren mit großer Wahrscheinlichkeit mit \LaTeX \, gemacht sein. Sie können in Ihren Dokumenten alle Arten mathematischer Operatoren, Pfeile und Symbole verwenden, Matrizen und Gleichungssysteme erstellen, Ihre Variablen mit griechischen oder lateinischen Buchstaben benennen und nach Belieben Frakturschrift oder sonstige exotische Zeichen einbauen. Es gibt Umgebungen für Beweise oder Theoreme, sie können alles durchnummerieren lassen und im Text auf Formeln, Kapitel oder Abbildungen verweisen ("`Siehe Abbildung 3.4 auf Seite 25"').
+
+Weiterhin wird der Inhalt Ihres Dokumentes im Klartext gespeichert, Sie können also davon ausgehen, dass Ihre Dokumente sehr lange lesbar sein werden. Mit anderen Programmen haben Sie möglicherweise schon in der nächsten Version Probleme, Ihr Dokument zu öffnen.
+
+\section*{Welche Nachteile gibt es?}
+Der Vorteil, dass man mit Textdateien arbeitet, ist gleichzeitig auch ein Nachteil: Man sieht die Veränderungen nicht sofort, die man tätigt, da man zuerst das PDF \emph{kompilieren} muss (keine Angst, das ist mit einem Klick erledigt). Außerdem ist es sehr schwierig, ohne tiefere Kenntnisse Vorlagen abzuändern. Sie können mit \LaTeX \, erstklassige Tabellen erstellen, jedoch haben sie nicht die Möglichkeit, in einem Kontextmenü Zellen zu vereinen oder zu trennen, sondern müssen dies mit speziellen Befehlen tun. Darum wird die Erstellung von Tabellen am Anfang länger dauern. Für einfachere Tabellen gibt es in den Editoren jedoch zumeist Assistenten, die Sie unterstützen.
+
+\section*{Installation mit seminarix}
+Seminarix macht die Einrichtung einer Umgebung leicht: Installieren Sie einfach das Paket \texttt{seminarix-latex}. Dieses Paket und alles, was mitinstalliert wird, ist sehr groß und die Installation dauert je nach Internetverbindung sehr lange. Wenn sie sich mit \LaTeX \, bereits etwas auskennen, können Sie auch nur die Pakete \texttt{kile}, \texttt{texlive-base} und \texttt{texlive-lang-german} installieren, allerdings müssen Sie dann früher oder später Pakete nachinstallieren (unter Umständen schon, um die mitgelieferten Vorlagen übersetzen zu können). Danach stehen Ihnen folgende Werkzeuge zur Verfügung: Ein Texteditor speziell für \LaTeX \, (Kile), eine komplette \LaTeX \,-Installation (texlive) und eine Auswahl an Vorlagen, die sie in Kile finden können.
+
+\section*{Ich bin möchte \LaTeX \, ausprobieren - wie starte ich?}
+Installieren Sie zunächst das notwendige Programmpaket wie oben beschrieben. Starten Sie danach Kile mit \emph{K-Menü$\rightarrow$Büroprogramme$\rightarrow$Kile}. Erstellen Sie ein neues Dokument: Klicken Sie auf Datei$\rightarrow$Neu und wählen Sie die Vorlage \emph{Seminarix-Tutorial} aus. Jetzt sollte sich im Editorfenster ein Quelldokument öffnen. Verschaffen Sie sich einen kurzen Überblick über das Dokument. Sie sehen Kommentare, die erläutern, was mit dem jeweiligen Befehl gemacht wird. Speichern Sie nun das Dokument ab (Datei$\rightarrow$Speichern) und klicken Sie auf das blaue Zahnrad mit dem PDF-Symbol (beim Überfahren mit der Maus erscheint \emph{PDFLaTeX}), Ihr PDF wird generiert. Im Fenster \emph{Protokoll und Meldungen} sollte \emph{Done!} stehen. Klicken Sie nun auf den rot-weißen \emph{ViewPDF}-Button. KPDF sollte sich öffnen und Ihr Dokument anzeigen. Schalten Sie mit \emph{Alt+Tab} zurück in Kile, ändern Sie den Text, fügen Sie Formeln hinzu, probieren Sie aus. Drücken Sie zwischendurch immer mal wieder den \emph{PDFLaTeX}-Button und wechseln Sie ins KPDF-Fenster, um die Auswirkungen zu sehen. Erstellen Sie ein neues Dokument und probieren Sie die anderen Vorlagen aus. Benutzen Sie die Vorlagen \textit{TF-Brief}, \textit{Artikel} oder \textit{Karteikarten}, diese eignen sich für die ersten Schritte vielleicht am besten. Sie sind mit roten Icons markiert.
+
+Ich habe Ihnen einen Satz Beispieldokumente erstellt, die Sie sich neben dem Tutorial ansehen können, zum Beispiel zu Erstellung von Lernkarten, die Sie sich dann doppelseitig auf 160-Gramm-Papier ausdrucken oder ausschneiden können und zur Erstellung eines Mathematik-Arbeitsblattes mit einer Idee zum Aufbau einer Ausgabensammlung.
+
+\section*{Tipps für den Anfang}
+Versuchen Sie, zunächst mit fertigen Vorlagen zu arbeiten. Versuchen Sie nicht, sofort die Textbreite, die Schriftart oder Ausrichtung der Kapitelüberschriften zu verändern. Sie laufen sonst sehr schnell in Gefahr Fehler zu machen, deren Quelle Sie nicht zuordnen können ohne ein wenig Erfahrung zu haben. Erstellen Sie zunächst den Ihnalt Ihrer Dokumente, damit Sie mit der Art und Weise vertraut werden, wie man Befehle unt Text eingibt. Versuchen Sie nicht, sofort die Einladungskärtchen zu Ihrer nächsten Feier mit \LaTeX \, zu setzen, wenn Sie keine Vorlage besitzen, die Sie verwenden wollen (nehmen Sie dafür lieber Scribus).
+
+Ebenso sollten Sie sich klar darüber sein, dass die Verwendung von \LaTeX \, die meisten Anwender zwar langfristig überzeugt, aber auch das etwas ist, was man erlernen muss.
+
+\section*{Wie erfahre ich mehr?}
+\begin{description}
+ \item[Kaufen oder leihen Sie sich ein Buch.] Das ist wohl die offensichtlichste Variante. Der Vorteil liegt meist in der Qualität und im Umfang. Wenn Sie Zugang zu einer Universitätsbibliothek haben: Es gibt sicherlich ein Regal gefüllt mit mehreren Büchern über \LaTeX \,.
+\item[Besorgen Sie sich elektronische Dokumente.] Doch bei der Eingabe von ``latex'' in google werden Sie nicht glücklich werden. Tipp: Schränken Sie die Suche zum Beispiel mit \texttt{filetype:pdf} ein, dann kommmen Sie sehr schnell an Einführungen von Universitäten, Schulen oder sonstige Dokumente von \LaTeX \,-Benutzern. Bitte beachten Sie dabei eventuelle Urheberrechte. 
+\item[Fragen Sie in Foren nach.] Oft weiß man nicht genau, nach was man eigentlich sucht. Fragen Sie in Foren nach, dort bekommen Sie meist die richtigen Stichworte oder Lösungstipps, mit denen Sie Ihre Suche verfeinern können. 
+\end{description}
+
+
+\end{document}

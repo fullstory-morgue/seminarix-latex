@@ -1,0 +1,64 @@
+\documentclass{tfbrief}
+% use option  english  above to use English labels for phone, email, ...
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{seminarix}
+% set the width of the "from" column by using the width of a given text
+% should only be neccessary, if it cannot be automatically detected (e.g. with multiline fromstreet)
+\settowidth{\fromwidth}{Platz der deutschen Einheit 5a}
+
+% Ihr Name
+\fromname{$$AUTHOR$$}
+
+% Ihre Straße und Ihre Stadt OHNE Postleitzahl
+\fromstreet{}
+\fromcity{}
+% Hier jetzt Postleitzahl
+\fromcitycode{}
+
+% Telefon, E-Mail ... entfernen Sie die Kommentarzeichen oder fügen Sie welche hinzu, wenn Sie Einträge nicht gebrachen können
+%\frommobile{}
+\fromphone{}
+%\fromfax{0\,30\,/\,5\,14\,35-151}
+\fromemail{}
+%\fromwww{http://www.orwell.com}
+%\ourref{Unser Zeichen}
+%\yourref{Ihr Zeichen}
+%\fromcitycc{D}
+%\fromcountry{Germany}
+
+% hier Empfängerdaten eingeben
+\toname{}
+\tostreet{}
+\tocity{}
+\tocitycode{}
+%\tocitycc{D}
+%\tocountry{Germany}
+%\tofax{0\,30\,/\,4\,22\,05-114}
+% Datum: Automatisch auf heute oder per Hand eingeben
+\date{\today}
+
+\subject{}
+\greeting{}
+\leave{Mit freundlichen Grüßen}
+
+%\logo{\includegraphics[height=1cm]{logo}}
+
+\begin{document}
+\begin{letter}
+(Brieftext)
+\end{letter}
+
+% if you like to have the attachment closer to the page bottom, enlarge the current page
+\enlargethispage{1cm}
+
+
+%\begin{attachment}
+%\item Anhang 1
+%\item Anhang 2
+%\end{attachment}
+
+\end{document}
+

@@ -1,0 +1,32 @@
+\documentclass[a4paper,frontgrid]{flacards}
+\usepackage{siduxflacards}
+
+% Selbsterklärend: Beschriftungen und Farben angeben. für die Farbe kann eine Farbe aus dem Paket "color" eingetragen werden.
+% Lesen Sie in der Dokumentation zu diesem Paket nach, wie Sie eigene Farben definieren und welche vordefiniert sind.
+
+% Farbe der Balken und der Schrift auf den Balken
+\renewcommand{\vorderseitenfarbebalken}{red}
+\renewcommand{\rueckseitenfarbebalken}{blue}
+
+% Achten Sie hier auf Kontrast ;)
+\renewcommand{\vorderseitenfarbetext}{white}
+\renewcommand{\rueckseitenfarbetext}{white}
+
+% Überschriften, Unterschriften
+\renewcommand{\ueberschriftvorne}{Seminarix Frage}
+\renewcommand{\ueberschrifthinten}{Seminarix Antwort}
+\renewcommand{\flfoot}{\footnotesize Frühjahr 2009}
+\begin{document}
+
+% Festlegen, wie viele Karten auf eine Seite sollen. Hier: 2 Spalten, 6 Zeilen
+\pagesetup{2}{6}
+
+% Karten direkt hier eingeben
+\card{erste Frage}{erste Antwort}
+\card{nächste Frage}{andere Antwort}
+% mit input{} festlegen, welche Dateien eingebunden werden sollen. Auch hier gilt: Man kann Karten direkt
+% hier eingeben oder sich eine kleine Sammlung in Extradateien anlegen. Der Vorteil ist, dass man die von extern
+% eingebundenen Karten bei Bedarf anders weiterverwenden kann, da in den Dateien kein Overhead ist, sondern direkt
+% losgelegt wird. Schauen Sie sich die Datei lernkarten.tex an.
+\input{lernkarten}
+\end{document}

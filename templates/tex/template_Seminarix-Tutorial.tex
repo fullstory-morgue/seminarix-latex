@@ -1,0 +1,91 @@
+%%
+%%
+%% Kleines Tutorial für LaTeX in Seminarix. Copyright Philipp Bender 2009.
+%% Diese Datei darf beliebig kopiert, verteilt, verändert werden, bitte entfernen Sie dann jedoch meinen Namen aus dem Dokument.
+%%
+%%
+
+%%
+%%
+%% Wandeln Sie diese Datei in ein PDF um! Klicken Sie dazu oben auf das blaue Zahnrad mit dem roten PDF-Symbol oder drücken Sie Alt+6. Speichern Sie das Dokument jedoch vorher ab. Mit Alt+7 können Sie das Dokument betrachten. 
+%%
+%%
+
+
+\documentclass{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{ngerman}
+
+% hyperref sorgt dafür, dass unser Dokment verlinkt ist. Die roten Kästen kann man auch abstellen, sehen Sie dafür in der Dokumentation des Paketes nach.
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{seminarix}
+\usepackage{enumerate}
+
+% multicol für mehrspaltigen Satz
+\usepackage{multicol}
+\title{Seminarix Tutorial}
+\author{Philipp Bender}
+\date{8. Februar 2009}
+\begin{document}
+\maketitle
+
+% Inhaltsverzeichnis einfügen
+\tableofcontents
+
+\section{Mathematik}
+\subsection{Formeln und Referenzen}
+Hier sehen Sie, wie Sie Formeln eingeben, Gleichungssysteme erstellen und sich auf Formeln rückbeziehen. Für den Anfang eine normale Formel:
+%% Tutorial: Lassen Sie die Nummerierung web, indem sie hinter equation einen Stern * machen.
+\begin{equation} % hier steht dann \begin{equation*}
+\label{wichtige_formel}
+	a^2+b^2=c^2
+\end{equation} % hier das gleiche
+
+Nun geben wir ein Gleichungssystem ein. Versuchen Sie nicht, es zu lösen 
+\begin{eqnarray}
+	\omega + 2\, \xi - 3\, \zeta & = & 12 \\
+\xi - 3\, \zeta & = & 1 - \omega \\
+2\, \omega + 2\, \xi - 6\, \zeta & = & 12
+\end{eqnarray}
+
+% Jetzt verweisen wir auf die oben erstellte Formel
+Wie wir in Formel \ref{wichtige_formel} gesehen haben, gibt es kein $\varepsilon > \infty$.
+
+\subsection{Aufzählung}
+
+Bearbeiten Sie hierzu folgende Aufgaben:
+\begin{enumerate}[1)]
+	\item Welche Graphen kann man zeichnen, wenn man nur Lineal und Schere parat hat?
+	\item Was fällt Ihnen dazu sonst noch ein?
+\end{enumerate}
+
+\section{Allgemeiner Textsatz}
+
+% Das Wort Schreibmaschinenschrift wurde nicht korrekt getrennt. Helfen Sie nach! \- macht einen Trennvorschlag an einer bestimmten Stelle. Falls Sie Wörter öfter einsetzen, können Sie Trennlisten definieren.
+In \LaTeX\ können Sie natürlich Textpassagen hervorheben. \textbf{Fett}, \underline{unterstrichen}, \texttt{Schreib\-ma\-schi\-nen\-schrift}, \textit{kursiv} oder \textsc{Kapitälchen}, alles kein Problem. Die meisten Werkzeuge dafür finden Sie in der Werkzeugleiste oben.
+\subsection{Mehrspaltiger Text}
+\begin{multicols}{2}
+Wie wäre es, einen zweispaltigen Text einzugeben? Das ist ganz leicht - oben wurde schon das paket \texttt{multicol} geladen, das benutzen wir hier gerade. Sie können auch Zeilennummern anzeigen lassen, schauen Sie sich dafür die Beispieldateien an. Achten Sie auch auf die automatische Silbentrennung! Manchmal werden Worte nicht korrekt getrennt, dann muss man im Einzelfall nachhelfen.
+\end{multicols}
+
+\subsection{Bilder und Bildunterschriften}
+Stöbern Sie ein wenig in den Menüs von Kile. Im Menü \emph{LaTeX} finden Sie Assistenten für Tabellen, Umgebungen und Bilder. Nutzen Sie diese Möglichkeiten, schauen Sie sich den erzeugten Quelltext an und modifizieren Sie ihn! In PDF-Dateien können übrigens folgende Abbildungstypen eingebnden werden:
+\begin{itemize}
+	\item PDF
+	\item PNG
+	\item JPG
+\end{itemize}
+Diese Liste ist vielleicht nicht vollständig. 
+
+\subparagraph{Tipp:} Abbildungen erstellen Sie ganz einfach in Inkscape. Wenn Sie diese dann als PDF exportieren und in ein \LaTeX\-Dokument einbinden, haben Sie eine Grafik, in die Sie beliebig hineinzoomen können und die nicht pixelig wird! Genauso verhält es sich mit Plots aus gnuplot etc.
+
+
+\section{Argumente für \LaTeX}
+Warum soll man sich die Mühe machen, Text in einem Texteditor einzugeben? Weil das Ergebnis lohnt! Sie können sich Aufgabensammlungen anlegen und Bilder, Aufgaben etc. mit einem einzigen Befehl einbinden. Sehen Sie sich dafür die Beispiele an. Wenn Sie etwas über die Qualität der Ausgabe erfahren möchten, schauen Sie hier nach: \url{http://user.uni-frankfurt.de/~muehlich/tex/wordvslatex.html}
+
+% \url{} fügt einen klickbaren Link ein.
+\end{document}

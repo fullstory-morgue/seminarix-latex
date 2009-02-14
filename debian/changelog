@@ -1,0 +1,19 @@
+seminarix-latex (0.1.0) unstable; urgency=low
+
+  [ Dinko Sabo ]
+  * Initial Release.
+  * fixed debian/rules
+  * added copyrights
+  * added uploaders
+  * added vcs svn entries
+  * created postinst function
+  * finished dependencies
+  * added installation paths
+  * fixed GPL-2 issue in debian/copyright
+  * removed installation folder, obsolete
+
+  [ Stefan Lippers-Hollmann ]
+  * add full license texts not covered by base-files.
+  * slightly improve descriptions.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 14 Feb 2009 01:49:41 +0100

@@ -1,0 +1,61 @@
+\documentclass[a4paper,10pt,noonelinecaption,normalheadings]{scrartcl}
+\usepackage{scrpage2}
+\usepackage{fancybox}
+
+\usepackage{enumerate}
+
+\usepackage[total={16cm,26cm}]{geometry}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\selectlanguage{ngerman}
+
+\usepackage{seminarix}
+
+\usepackage{multicol} % Mehrspaltensatz
+\usepackage{lineno} % Zeilennummern
+\modulolinenumbers[5] % Intervall der Zeilennummern
+
+
+\pagestyle{scrheadings}
+\addtolength\columnsep{20pt}
+\renewcommand*{\titlepagestyle}{empty}
+
+\begin{document}
+
+\title{Ein lateinischer Text}
+\author{}
+\date{}
+\maketitle
+
+\begin{multicols}{2} % Zweispaltiger Satz
+
+% geben Sie hier ein, was am linken Rang senkrecht stehen soll.
+\thisfancyput*(-1.5cm,-26cm){\rotatebox{90}{\footnotesize{Grundkurs Latein, Günther Krauss,  \today}}}
+
+
+
+\begin{linenumbers}
+
+\section{Einleitung}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum. Integer ac velit nec enim laoreet volutpat. Aenean dignissim, mauris non egestas venenatis, nulla neque vehicula felis, non venenatis sem magna nec tortor. Praesent luctus odio in mi rutrum hendrerit. Etiam vulputate interdum neque. Etiam ut nibh at erat aliquam sodales. Sed consequat. Integer nec turpis. Aenean risus. Quisque imperdiet risus. Vestibulum imperdiet pretium elit. Ut ut nunc ut nisl ultricies feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur a magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+
+Pellentesque odio eros, auctor sed, viverra nec, accumsan vitae, neque. Proin aliquam. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed nisl nibh, tincidunt at, auctor ut, lobortis non, leo. Ut est. Suspendisse ut ligula sed nibh laoreet fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce eleifend fermentum diam. Pellentesque convallis. Ut mollis eros id mi. Cras dolor lectus, molestie dictum, gravida ac, elementum nec, nulla. Morbi ut elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis sagittis, leo vitae hendrerit pulvinar, neque augue suscipit quam, vitae consectetuer est diam quis magna. Mauris sed libero ac leo rutrum faucibus. Fusce arcu odio, luctus vel, sollicitudin cursus, laoreet sed, tortor. Aenean nunc. Praesent egestas sapien id tortor interdum condimentum. Ut ut nunc sit amet odio sollicitudin venenatis.
+
+Donec ullamcorper sagittis nulla. Ut euismod. Duis tincidunt, pede et consectetuer pellentesque, turpis lorem pretium nulla, ut auctor turpis sem quis orci. Suspendisse venenatis lacus vitae turpis. Integer lacus tellus, fermentum eu, placerat nec, aliquam a, massa. Phasellus eget diam ut tortor porttitor mattis. In quis lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec diam justo, dictum eget, semper nec, suscipit eget, lorem. Aenean pretium, felis a dapibus volutpat, tellus dolor gravida est, a dignissim justo est at eros. Integer ultrices, justo quis lobortis porttitor, massa pede convallis purus, vitae volutpat erat nunc vitae massa. Aenean vitae elit et velit lobortis ultrices. Nulla mattis faucibus est. Cras eget tellus. Integer at arcu. Maecenas metus nisl, vulputate vel, malesuada in, fringilla eget, ligula. Vestibulum in mi et dui volutpat egestas. Donec purus. Maecenas gravida tincidunt massa.
+
+\section{Letzteres}
+
+Integer sollicitudin. Proin mollis congue mauris. Aliquam erat volutpat. Phasellus nisl mi, fermentum blandit, placerat at, lobortis non, mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus nonummy, mauris sit amet ornare tincidunt, quam arcu vehicula pede, eu viverra nisi sapien a nibh. Aenean arcu enim, congue vel, feugiat id, mattis at, turpis. Nulla facilisi. Nullam tellus urna, malesuada nec, facilisis sit amet, malesuada eu, elit. Donec ultricies nulla vel est.
+\end{linenumbers}
+\end{multicols}
+
+\subsection*{Aufgaben}
+\begin{enumerate}[a)]
+\item Übersetzten Sie die Zeilen 5 bis 15
+\item Was will uns der Feldherr damit wohl sagen?
+\end{enumerate}
+
+
+\end{document}

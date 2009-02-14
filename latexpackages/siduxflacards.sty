@@ -1,0 +1,40 @@
+%% --------------------------
+%% Hiding some kind of "overhead" for flacards-users
+%% © 2009 Xenia Rendtel and Philipp Bender
+%% This file is licensed under the LaTeX Project Public License (latest version)
+%% License-Text: http://www.latex-project.org/lppl.txt
+%% --------------------------
+%%
+%% This file is based on the original sample file for flacards.sty by Norbert Stuhrmann
+%%
+%% --------------------------
+\NeedsTeXFormat{LaTeX2e}[1996/06/01]
+\ProvidesPackage{siduxflacards}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\newcommand{\vorderseitenfarbebalken}{red}
+\newcommand{\rueckseitenfarbebalken}{blue}
+\newcommand{\vorderseitenfarbetext}{white}
+\newcommand{\rueckseitenfarbetext}{white}
+\newcommand{\ueberschriftvorne}{Seminarix Frage}
+\newcommand{\ueberschrifthinten}{Seminarix Antwort}
+
+\renewcommand{\fchead}{%
+  \vskip-3pt\fboxsep=0pt%
+  \colorbox{\vorderseitenfarbe}{%
+   \small\sffamily\bfseries\textcolor{\vorderseitenfarbetext}{%
+     \parbox{\cardwidth}{\vskip3pt\centering \ueberschriftvorne \vskip4pt}%
+   }%
+  }%
+}
+\renewcommand{\bchead}{%
+  \vskip-3pt\fboxsep=0pt%
+  \colorbox{\rueckseitenfarbe}{%
+   \small\sffamily\bfseries\textcolor{\rueckseitenfarbetext}{%
+     \parbox{\cardwidth}{\vskip3pt\centering \ueberschrifthinten \vskip4pt}
+   }%
+  }%
+}
+\renewcommand{\cardtextstylef}{\bfseries}

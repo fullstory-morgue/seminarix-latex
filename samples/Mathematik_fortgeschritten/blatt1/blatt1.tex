@@ -1,0 +1,27 @@
+% Dokumentenklasse festlegen
+\documentclass{uebungsblatt}
+
+% Seminarix-Paket mit einigen Befehlen laden.
+% Hier jetzt das Paket laden.
+\usepackage{seminarix}
+% In diesen Befehlen werden teilweise Dateien eingebunden (Aufgaben, Abbildungen). Um die Einbindung so einfach wie möglich zu machen,
+% werden in den folgenden beiden Zeilen Variablen definiert, die auf die Verzeichnisse zeigen, in denen Ihre Aufgaben
+% und Ihre Abbildungen liegen. Vergessen Sie bitte das abschließende "/" bei Verzeichnisnamen nicht! 
+% Hier im Beispiel liegen die Abbildungen und die Aufgaben im gleichen Verzeichnis ../aufgabensammlung/
+\renewcommand{\afgsammlung}{../aufgabensammlung/}
+\renewcommand{\bildersammlung}{../aufgabensammlung/}
+
+
+% Blatttitel setzten
+\blatttitel{Folgen und Reihen}
+
+
+
+% Hier beginnt das eigentliche Aufgabenblatt.
+\begin{document}
+
+% \incafg ist ein Befehl aus dem Seminarix-Paket, er bindet eine Aufgabe ein. Die Aufgaben müssen in dem Verzeichnis liegen, welches Sie oben angegeben haben.
+% Die Nummerierung erfolgt automatisch. Sehen Sie sich die eingebundenen Dateien an, wenn Sie wissen möchten, wie Sie Aufgaben erstellen können.
+\incafg{folgen01}
+\incafg{kurvendiskussion}
+\end{document}

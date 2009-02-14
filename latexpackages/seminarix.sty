@@ -1,0 +1,25 @@
+%% --------------------------
+%% Stylefile for Seminarix
+%% © 2009 Xenia Rendtel and Philipp Bender
+%% This file is licensed under the LaTeX Project Public License (latest version)
+%% License-Text: http://www.latex-project.org/lppl.txt
+%% --------------------------
+
+\NeedsTeXFormat{LaTeX2e}[1996/06/01]
+\ProvidesPackage{seminarix}
+
+%% --------------------------
+%% Pakete einbinden
+%% --------------------------
+\usepackage{palatino}
+\usepackage{multicol}
+\usepackage{graphicx}
+
+%% --------------------------
+%% eigene Befehle
+%% --------------------------
+\newcommand{\afgsammlung}{../aufgabensammlung/}
+\newcommand{\bildersammlung}{../aufgabensammlung/}
+\newcommand{\incafg}[1]{\input{\afgsammlung#1}}
+\newcommand{\incbild}[2]{\begin{centering}\includegraphics[#2]{\bildersammlung#1}\end{centering}}
+

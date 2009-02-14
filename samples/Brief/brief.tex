@@ -1,0 +1,74 @@
+\documentclass{tfbrief}
+% use option  english  above to use English labels for phone, email, ...
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+% set the width of the "from" column by using the width of a given text
+% should only be neccessary, if it cannot be automatically detected (e.g. with multiline fromstreet)
+\settowidth{\fromwidth}{Platz der deutschen Einheit 5a}
+
+% Ihr Name
+\fromname{Emil Erpel}
+
+% Ihre Straße und Ihre Stadt OHNE Postleitzahl
+\fromstreet{Erpelweg 13}
+\fromcity{Erpelhausen}
+% Hier jetzt Postleitzahl
+\fromcitycode{76234}
+
+% Telefon, E-Mail ... entfernen Sie die Kommentarzeichen oder fügen Sie welche hinzu, wenn Sie Einträge nicht gebrachen können
+%\frommobile{}
+\fromphone{+49\,176\,32\,22\,33\,22} % Man kann auch Leerzeichen verwenden, aber \, ist sauberer für einen kleinen Abstand
+%\fromfax{0\,30\,/\,5\,14\,35-151}
+\fromemail{gustav@er.pl}
+%\fromwww{http://www.orwell.com}
+%\ourref{Unser Zeichen}
+%\yourref{Ihr Zeichen}
+%\fromcitycc{D}
+%\fromcountry{Germany}
+
+% hier Empfängerdaten eingeben
+\toname{Gänsefutterfabrik Quack}
+\tostreet{Fischweg 23}
+\tocity{Münchhausen}
+\tocitycode{45789}
+%\tocitycc{D}
+%\tocountry{Germany}
+%\tofax{0\,30\,/\,4\,22\,05-114}
+% Datum: Automatisch auf heute oder per Hand eingeben
+\date{\today}
+
+\subject{Beanstandung des Entenfutters}
+\greeting{Sehr geehrter Herr Quack,}
+\leave{Mit freundlichen Grüßen}
+
+%\logo{\includegraphics[height=1cm]{logo}}
+
+\begin{document}
+\begin{letter}
+ihr Entenfutter schmeckt erbärmlich! Ich habe hier eine Liste mit den größten Mängeln zusammengestellt.
+\begin{center}
+\begin{tabularx}{0.7\textwidth}{r|ccr@{,}l}
+Punkt & Ausprägung & Urteil & \multicolumn{2}{c}{Punkte} \\ 
+\hline
+1 & Geschmack & erbärmlich & 5&324 \\ 
+2 & Qualität & miserabel & 144&8
+\end{tabularx}
+\end{center}
+
+\end{letter}
+
+% if you like to have the attachment closer to the page bottom, enlarge the current page
+\enlargethispage{1cm}
+
+
+\begin{attachment}
+\item Vollständige Bewertung
+\item Untersuchungsergebnis
+\end{attachment}
+
+\end{document}
+

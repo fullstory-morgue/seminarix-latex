@@ -1,0 +1,5 @@
+latexpackages/*    usr/share/texmf-texlive/tex/latex
+templates/tex/*    usr/share/apps/kile/templates
+templates/icons/*  usr/share/apps/kile/pics
+samples/*          usr/share/seminarix-latex/samples
+documentation/*    usr/share/seminarix-latex/documentation
