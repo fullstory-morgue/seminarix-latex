@@ -1,8 +1,12 @@
 seminarix-latex (0.1.1) unstable; urgency=low
 
+  [ Dinko Sabo ]
   * minor improvements
 
- -- Dinko Sabo <cobra@sidux.com>  Thu, 19 Feb 2009 21:39:55 +0100
+  [ Stefan Lippers-Hollmann ]
+  * bump standards version to 3.8.1, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Apr 2009 01:47:51 +0200
 
 seminarix-latex (0.1.0) unstable; urgency=low
 
