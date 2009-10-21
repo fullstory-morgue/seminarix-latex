@@ -1,8 +1,10 @@
-seminarix-latex (0.1.2) UNRELEASED; urgency=low
+seminarix-latex (0.1.2) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Dinko Sabo ]
+  * modified folder structure to match KDE4 structure
+  * * bump standards version to 3.8.3, no changes necessary.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Apr 2009 01:49:04 +0200
+ -- Dinko Sabo <cobra@sidux.com>  Tue, 20 Oct 2009 23:41:29 +0200
 
 seminarix-latex (0.1.1) unstable; urgency=low
 
