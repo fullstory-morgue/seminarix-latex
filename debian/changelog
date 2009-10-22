@@ -1,8 +1,7 @@
 seminarix-latex (0.1.2) unstable; urgency=low
 
-  [ Dinko Sabo ]
   * modified folder structure to match KDE4 structure
-  * * bump standards version to 3.8.3, no changes necessary.
+  * bump standards version to 3.8.3, no changes necessary.
 
  -- Dinko Sabo <cobra@sidux.com>  Tue, 20 Oct 2009 23:41:29 +0200
 
