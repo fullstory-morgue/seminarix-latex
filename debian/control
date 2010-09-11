@@ -14,17 +14,17 @@ Architecture: all
 Depends: ${shlibs:Depends},
  ${misc:Depends},
  kile,
- TeX Live-lang-german,
- TeX Live-latex-recommended,
- TeX Live-pstricks,
- TeX Live-science,
+ texlive-lang-german,
+ texlive-latex-recommended,
+ texlive-pstricks,
+ texlive-science,
  cm-super,
  latex-beamer,
- TeX Live-latex-extra,
+ texlive-latex-extra,
  lmodern,
- TeX Live-fonts-recommended,
- TeX Live-humanities,
- TeX Live-generic-extra
+ texlive-fonts-recommended,
+ texlive-humanities,
+ texlive-generic-extra
 Description: LaTeX examples for sidux-seminarix
  An introduction to LaTeX, based on the TeX Live distribution and kile.
  Tutorial and sample files for common usage:
