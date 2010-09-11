@@ -1,8 +1,9 @@
-seminarix-latex (0.2.1) UNRELEASED; urgency=low
+seminarix-latex (0.2.1) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 22:05:37 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Aug 2010 22:31:06 +0200
 
 seminarix-latex (0.2.0) unstable; urgency=low
 
