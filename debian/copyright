@@ -36,7 +36,7 @@ Copyrights and licences for the files in seminarix-latex/latexpackages
 		© 2004, 2005, 2006 Igor Akkerman
 		LaTeX Project Public License (latest version)
 		License-Text: http://www.latex-project.org/lppl.txt
-	
+
 	* LaTeX package siduxflacards and seminarix
 		© 2009 Xenia Rendtel and Philipp Bender
 		LaTeX Project Public License (latest version)
@@ -79,8 +79,8 @@ which the LaTeX kernel and the base LaTeX packages are distributed.
 
 You may use this license for any work of which you hold the copyright
 and which you wish to distribute.  This license may be particularly
-suitable if your work is TeX-related (such as a LaTeX package), but 
-it is written in such a way that you can use it even if your work is 
+suitable if your work is TeX-related (such as a LaTeX package), but
+it is written in such a way that you can use it even if your work is
 unrelated to TeX.
 
 The section `WHETHER AND HOW TO DISTRIBUTE WORKS UNDER THIS LICENSE',
@@ -107,11 +107,11 @@ In this license document the following terms are used:
 
    `Work'
     Any work being distributed under this License.
-    
+
    `Derived Work'
     Any work that under any applicable law is derived from the Work.
 
-   `Modification' 
+   `Modification'
     Any procedure that produces a Derived Work under any applicable
     law -- for example, the production of a file containing an
     original file associated with the Work or a significant portion of
@@ -121,7 +121,7 @@ In this license document the following terms are used:
    `Modify'
     To apply any procedure that produces a Derived Work under any
     applicable law.
-    
+
    `Distribution'
     Making copies of the Work available from one person to another, in
     whole or in part.  Distribution includes (but is not limited to)
@@ -142,16 +142,16 @@ In this license document the following terms are used:
     no such explicit nomination then it is the `Copyright Holder' under
     any applicable law.
 
-   `Base Interpreter' 
+   `Base Interpreter'
     A program or process that is normally needed for running or
-    interpreting a part or the whole of the Work.    
+    interpreting a part or the whole of the Work.
 
     A Base Interpreter may depend on external components but these
     are not considered part of the Base Interpreter provided that each
     external component clearly identifies itself whenever it is used
     interactively.  Unless explicitly specified when applying the
     license to the Work, the only applicable Base Interpreter is a
-    `LaTeX-Format' or in the case of files belonging to the 
+    `LaTeX-Format' or in the case of files belonging to the
     `LaTeX-format' a program implementing the `TeX language'.
 
 
@@ -192,8 +192,8 @@ the Derived Work.
 distribute a Derived Work provided the following conditions are met
 for every component of the Work unless that component clearly states
 in the copyright notice that it is exempt from that condition.  Only
-the Current Maintainer is allowed to add such statements of exemption 
-to a component of the Work. 
+the Current Maintainer is allowed to add such statements of exemption
+to a component of the Work.
 
   a. If a component of this Derived Work can be a direct replacement
      for a component of the Work when that component is used with the
@@ -203,13 +203,13 @@ to a component of the Work.
      clearly and unambiguously identifies itself as a modified version
      of this component to the user when used interactively with that
      Base Interpreter.
-     
+
   b. Every component of the Derived Work contains prominent notices
      detailing the nature of the changes to that component, or a
      prominent reference to another file that is distributed as part
      of the Derived Work and that contains a complete and accurate log
      of the changes.
-  
+
   c. No information in the Derived Work implies that any persons,
      including (but not limited to) the authors of the original version
      of the Work, provide any support, including (but not limited to)
@@ -219,7 +219,7 @@ to a component of the Work.
 
   d. You distribute at least one of the following with the Derived Work:
 
-       1. A complete, unmodified copy of the Work; 
+       1. A complete, unmodified copy of the Work;
           if your distribution of a modified component is made by
           offering access to copy the modified component from a
           designated place, then offering equivalent access to copy
@@ -246,15 +246,15 @@ format, where the Work or that Derived Work (in whole or in part) is
 then produced by applying some process to that format, does not relax or
 nullify any sections of this license as they pertain to the results of
 applying that process.
-     
+
 10. a. A Derived Work may be distributed under a different license
        provided that license itself honors the conditions listed in
        Clause 6 above, in regard to the Work, though it does not have
        to honor the rest of the conditions in this license.
-      
+
     b. If a Derived Work is distributed under a different license, that
        Derived Work must provide sufficient documentation as part of
-       itself to allow each recipient of that Derived Work to honor the 
+       itself to allow each recipient of that Derived Work to honor the
        restrictions in Clause 6 above, concerning changes from the Work.
 
 11. This license places no restrictions on works that are unrelated to
@@ -323,7 +323,7 @@ the Work through the following steps:
 
   a. If it is being maintained, then ask the Current Maintainer
      to update their communication data within one month.
-     
+
   b. If the search is unsuccessful or no action to resume active
      maintenance is taken by the Current Maintainer, then announce
      within the pertinent community your intention to take over
@@ -333,17 +333,17 @@ the Work through the following steps:
  3a. If the Current Maintainer is reachable and agrees to pass
      maintenance of the Work to you, then this takes effect
      immediately upon announcement.
-     
+
   b. If the Current Maintainer is not reachable and the Copyright
      Holder agrees that maintenance of the Work be passed to you,
-     then this takes effect immediately upon announcement.  
-    
+     then this takes effect immediately upon announcement.
+
  4.  If you make an `intention announcement' as described in 2b. above
      and after three months your intention is challenged neither by
      the Current Maintainer nor by the Copyright Holder nor by other
      people, then you may arrange for the Work to be changed so as
      to name you as the (new) Current Maintainer.
-     
+
  5.  If the previously unreachable Current Maintainer becomes
      reachable once more within three months of a change completed
      under the terms of 3b) or 4), then that Current Maintainer must
@@ -426,7 +426,7 @@ Here is an example of such a notice and statement:
   % version 2005/12/01 or later.
   %
   % This work has the LPPL maintenance status `maintained'.
-  % 
+  %
   % The Current Maintainer of this work is M. Y. Name.
   %
   % This work consists of the files pig.dtx and pig.ins
@@ -440,7 +440,7 @@ referring to any `LaTeX-Format', and both `Copyright Holder' and
 `Current Maintainer' referring to the person `M. Y. Name'.
 
 If you do not want the Maintenance section of LPPL to apply to your
-Work, change `maintained' above into `author-maintained'.  
+Work, change `maintained' above into `author-maintained'.
 However, we recommend that you use `maintained', as the Maintenance
 section was added in order to ensure that your Work remains useful to
 the community even when you can no longer maintain and support it
@@ -470,7 +470,7 @@ Important Recommendations
    using a line such as:
 
     % This work consists of all files listed in manifest.txt.
-   
+
    in that place.  In the absence of an unequivocal list it might be
    impossible for the licensee to determine what is considered by you
    to comprise the Work and, in such a case, the licensee would be
@@ -480,24 +480,24 @@ Important Recommendations
 ---CC-by-SA_3.0---
 
     Creative Commons Legal Code
-    
+
       Attribution-ShareAlike 3.0 Unported
-    
+
         /License/
-    
+
     THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
     COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY
     COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
     AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
-    
+
     BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE
     TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY
     BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS
     CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND
     CONDITIONS.
-    
+
     *1. Definitions*
-    
+
        1. *"Adaptation"* means a work based upon the Work, or upon the Work
           and other pre-existing works, such as a translation, adaptation,
           derivative work, arrangement of music or other alterations of a
@@ -589,17 +589,17 @@ Important Recommendations
           right of fixation and reproducing fixations of the Work, including
           storage of a protected performance or phonogram in digital form or
           other electronic medium.
-    
+
     *2. Fair Dealing Rights.* Nothing in this License is intended to reduce,
     limit, or restrict any uses free from copyright or rights arising from
     limitations or exceptions that are provided for in connection with the
     copyright protection under copyright law or other applicable laws.
-    
+
     *3. License Grant.* Subject to the terms and conditions of this License,
     Licensor hereby grants You a worldwide, royalty-free, non-exclusive,
     perpetual (for the duration of the applicable copyright) license to
     exercise the rights in the Work as stated below:
-    
+
        1. to Reproduce the Work, to incorporate the Work into one or more
           Collections, and to Reproduce the Work as incorporated in the
           Collections;
@@ -614,9 +614,9 @@ Important Recommendations
           incorporated in Collections; and,
        4. to Distribute and Publicly Perform Adaptations.
        5.
-    
+
           For the avoidance of doubt:
-    
+
              1. *Non-waivable Compulsory License Schemes*. In those
                 jurisdictions in which the right to collect royalties
                 through any statutory or compulsory licensing scheme cannot
@@ -635,16 +635,16 @@ Important Recommendations
                 administers voluntary licensing schemes, via that society,
                 from any exercise by You of the rights granted under this
                 License.
-    
+
     The above rights may be exercised in all media and formats whether now
     known or hereafter devised. The above rights include the right to make
     such modifications as are technically necessary to exercise the rights
     in other media and formats. Subject to Section 8(f), all rights not
     expressly granted by Licensor are hereby reserved.
-    
+
     *4. Restrictions.* The license granted in Section 3 above is expressly
     made subject to and limited by the following restrictions:
-    
+
        1. You may Distribute or Publicly Perform the Work only under the
           terms of this License. You must include a copy of, or the Uniform
           Resource Identifier (URI) for, this License with every copy of the
@@ -747,9 +747,9 @@ Important Recommendations
           national law, to enable You to reasonably exercise Your right
           under Section 3(b) of this License (right to make Adaptations) but
           not otherwise.
-    
+
     *5. Representations, Warranties and Disclaimer*
-    
+
     UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR
     OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY
     KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE,
@@ -758,15 +758,15 @@ Important Recommendations
     LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS,
     WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE
     EXCLUSION OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
-    
+
     *6. Limitation on Liability.* EXCEPT TO THE EXTENT REQUIRED BY
     APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL
     THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY
     DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF
     LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-    
+
     *7. Termination*
-    
+
        1. This License and the rights granted hereunder will terminate
           automatically upon any breach by You of the terms of this License.
           Individuals or entities who have received Adaptations or
@@ -783,9 +783,9 @@ Important Recommendations
           license that has been, or is required to be, granted under the
           terms of this License), and this License will continue in full
           force and effect unless terminated as stated above.
-    
+
     *8. Miscellaneous*
-    
+
        1. Each time You Distribute or Publicly Perform the Work or a
           Collection, the Licensor offers to the recipient a license to the
           Work on the same terms and conditions as the license granted to
@@ -829,7 +829,7 @@ Important Recommendations
 
 ---3-clause BSD--
 All rights reserved.
-  
+
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
 Redistributions of source code must retain the above copyright notice, this list
@@ -837,7 +837,7 @@ of conditions and the following disclaimer. Redistributions in binary form must
 reproduce the above copyright notice, this list of conditions and the following
 disclaimer in the documentation and/or other materials provided with the
 distribution.
-  
+
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
@@ -853,5 +853,5 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 The Debian packaging is:
     Copyright C) 2009, Dinko Sabo <cobra@sidux.com>
-  
+
 and is licensed under the 3 clause BSD license.
