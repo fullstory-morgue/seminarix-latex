@@ -14,20 +14,20 @@ Architecture: all
 Depends: ${shlibs:Depends},
  ${misc:Depends},
  kile,
- texlive-lang-german,
- texlive-latex-recommended,
- texlive-pstricks,
- texlive-science,
+ TeX Live-lang-german,
+ TeX Live-latex-recommended,
+ TeX Live-pstricks,
+ TeX Live-science,
  cm-super,
  latex-beamer,
- texlive-latex-extra,
+ TeX Live-latex-extra,
  lmodern,
- texlive-fonts-recommended,
- texlive-humanities,
- texlive-generic-extra
+ TeX Live-fonts-recommended,
+ TeX Live-humanities,
+ TeX Live-generic-extra
 Description: LaTeX examples for sidux-seminarix
- An introduction to LaTeX, based on a texlive and kile. Tutorial and sample
- files for common usage:
+ An introduction to LaTeX, based on the TeX Live distribution and kile.
+ Tutorial and sample files for common usage:
   * exercise sheets
   * writing articles
   * formal letters
@@ -35,5 +35,5 @@ Description: LaTeX examples for sidux-seminarix
   * text sheets
   * index cards
  .
- This package also acts as metapackage for kile and texlive packages needed to
+ This package also acts as metapackage for kile and TeX Live packages needed to
  work on these examples.
